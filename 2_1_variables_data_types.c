@@ -21,7 +21,17 @@ int main()
     int slices = 17;
     int people = 2;
 
-    double slices_per_person = (double) slices / people; // typecasting into a higher type
+    double slices_per_person = (double)slices / people; // typecasting into a higher type
     printf("Slices per people is %lf\n", slices_per_person);
+
+    double test1 = (25 / 2) * 2;         // 24.0
+    double test2 = 25 / 2 * 2.0;         // 24.0
+    double test3 = 25.0 / 2 * 2;         // 25.0
+    double test4 = (double)25 / 2 * 2.0; // 25.0
+
+    printf("test1 %lf\n", test1);
+    printf("test2 %lf\n", test2);
+    printf("test3 %lf\n", test3);
+    printf("test4 %lf\n", test4);
     return 0;
 }
