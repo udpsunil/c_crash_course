@@ -39,5 +39,9 @@ int main()
         printf("Default case\n");
         break;
     }
+
+    double balance = -5000;
+    balance > 0 ? printf("You have more money!\n"): printf("You don't have enough money\n");
+
     return 0;
 }
