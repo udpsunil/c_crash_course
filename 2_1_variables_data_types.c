@@ -14,5 +14,14 @@ int main()
     printf("%lu\n", sizeof(e));
     bool f = false;
     printf("%lu\n", sizeof(f));
+
+    int zero = 0.999999999;
+    printf("Zero is %d\n", zero);
+
+    int slices = 17;
+    int people = 2;
+
+    double slices_per_person = (double) slices / people; // typecasting into a higher type
+    printf("Slices per people is %lf\n", slices_per_person);
     return 0;
 }
