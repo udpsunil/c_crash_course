@@ -11,6 +11,7 @@ int main()
     printf("%s World has a value of %d\n", "Hello", x);
 
     int z;
+    printf("Enter the value of z: ");
     scanf("%d", &z); // address of operation & it holds address where the value from scanf should reside.
     printf("Value of Z is %d\n", z);
     return 0;
